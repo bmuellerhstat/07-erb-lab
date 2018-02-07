@@ -13,4 +13,4 @@ You've been hired to build an app for the local bowling alley. They want a page 
 
 But for now, they'll settle for just the basics: their name, slogan, address, and top teams.
 
-Finish the HTML in `index.erb` using the comments to guide you. Run the rspec tests to make sure you have the appropriate content on the page.
+Finish the HTML in `index.erb` using the comments to guide you. Run the rspec tests to make sure you have the appropriate content on the page. 
