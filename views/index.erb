@@ -10,13 +10,15 @@
       
       <!-- Use the ruby hashes above to complete the page below: -->
       
-      <h1></h1>
-      <h2></h2>
-      <p></p>
+      <h1><%= alley_info[:name] %></h1>
+      <h2><%= alley_info[:slogan] %></h2>
+      <p><%= alley_info[:address] %></p>
       
       <h4>Top Teams:</h4>
       <ul> <!-- you should be using .each -->
-          
+      <% alley_teams.each do |team| %>
+        <li><%= team %></li>
+      <% end %>
       </ul>
   </body>
 </html>
