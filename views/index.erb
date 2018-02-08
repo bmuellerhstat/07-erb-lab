@@ -16,7 +16,12 @@
       
       <h4>Top Teams:</h4>
       <ul> <!-- you should be using .each -->
-          
+          <% alley_teams = ["I Can't Believe It's Not Gutter","Livin' on A Spare","Split Happens","Gutter Gang"] %>
+          <ul>
+          <% alley_teams.each do |team| %>
+            <li><%= team %></li>
+          <% end %>
+          </ul>
       </ul>
   </body>
 </html>
