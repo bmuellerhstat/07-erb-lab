@@ -16,7 +16,9 @@
       
       <h4>Top Teams:</h4>
       <ul> <!-- you should be using .each -->
-          
+          <% alley_teams.each do |team| %>
+          <li><%= team %></li>
+          <% end %>
       </ul>
   </body>
 </html>
