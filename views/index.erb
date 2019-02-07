@@ -10,13 +10,15 @@
       
       <!-- Use the ruby hashes above to complete the page below: -->
       
-      <h1></h1>
-      <h2></h2>
-      <p></p>
+      <h1>Buster's Best Bowling Alley</h1>
+      <h2>Bet You Can't Bowl A Strike Every Time</h2>
+      <p>97 Bowling Alley Lane, Boulder CO</p>
       
       <h4>Top Teams:</h4>
       <ul> <!-- you should be using .each -->
-          
+      <% alley_teams.each do |team| %>
+        <li><%= team %></li>
+      <% end %>
       </ul>
   </body>
 </html>
